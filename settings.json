@@ -18,7 +18,8 @@
 				"one-dark-ui",
 				"predawn-syntax"
 			],
-			"useTreeSitterParsers": false
+			"useTreeSitterParsers": false,
+			"uriHandlerRegistration": "always"
 		},
 		"editor": {
 			"scrollPastEnd": true,
@@ -50,16 +51,17 @@
 		"python-tools": {
 			"pythonPath": "/usr/local/bin/python3"
 		},
-		"welcome": {
-			"showOnStartup": false
-		},
 		"sync-settings": {
-			"useOtherLocation": true,
+			"hiddenSettings": {},
 			"installLatestVersion": true,
-			"removeObsoletePackages": true
+			"removeObsoletePackages": true,
+			"useOtherLocation": true
 		},
 		"sync-settings-git-location": {
 			"gitUrl": "https://github.com/chrisjen83/atomBackup.git"
+		},
+		"welcome": {
+			"showOnStartup": false
 		}
 	}
 }
