@@ -1,0 +1,65 @@
+{
+	"*": {
+		"autocomplete-python": {
+			"useKite": false
+		},
+		"core": {
+			"disabledPackages": [
+				"kite",
+				"linter",
+				"python-tools",
+				"atom-ide-ui",
+				"python-autopep8",
+				"python-indent",
+				"linter-flake8"
+			],
+			"telemetryConsent": "no",
+			"themes": [
+				"one-dark-ui",
+				"predawn-syntax"
+			],
+			"useTreeSitterParsers": false
+		},
+		"editor": {
+			"scrollPastEnd": true,
+			"showIndentGuide": true
+		},
+		"exception-reporting": {
+			"userId": "45cd19f0-e3cd-4b57-8b02-9869328ff64a"
+		},
+		"ide-python": {
+			"python": "python3"
+		},
+		"kite": {
+			"showWelcomeNotificationOnStartup": false
+		},
+		"linter-ui-default": {
+			"panelHeight": 300
+		},
+		"minimap": {
+			"absoluteMode": true,
+			"adjustAbsoluteModeHeight": true
+		},
+		"pigments": {
+			"extendAutocompleteToColorValue": true,
+			"extendAutocompleteToVariables": true
+		},
+		"python-autopep8": {
+			"formatOnSave": true
+		},
+		"python-tools": {
+			"pythonPath": "/usr/local/bin/python3"
+		},
+		"welcome": {
+			"showOnStartup": false
+		},
+		"sync-settings": {
+			"useOtherLocation": true,
+			"installLatestVersion": true,
+			"removeObsoletePackages": true
+		},
+		"sync-settings-git-location": {
+			"gitUrl": "https://github.com/chrisjen83/atomBackup.git"
+		}
+	}
+}
