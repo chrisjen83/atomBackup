@@ -18,8 +18,7 @@
 				"one-dark-ui",
 				"predawn-syntax"
 			],
-			"uriHandlerRegistration": "always",
-			"useTreeSitterParsers": false
+			"uriHandlerRegistration": "always"
 		},
 		"editor": {
 			"scrollPastEnd": true,
