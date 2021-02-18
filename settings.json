@@ -1,5 +1,9 @@
 {
 	"*": {
+		"atom-python-virtualenv": {
+			"additionalVirtualEnvPaths": "$HOME\\Envs",
+			"getWorkOnHome": "$HOME"
+		},
 		"autocomplete-python": {
 			"useKite": false
 		},
@@ -43,6 +47,14 @@
 		"pigments": {
 			"extendAutocompleteToColorValue": true,
 			"extendAutocompleteToVariables": true
+		},
+		"platformio-ide-terminal": {
+			"core": {
+				"shell": "C:\\Windows\\System32\\cmd.exe"
+			},
+			"toggles": {
+				"autoClose": true
+			}
 		},
 		"python-autopep8": {
 			"formatOnSave": true
